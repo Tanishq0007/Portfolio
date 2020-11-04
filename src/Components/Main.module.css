@@ -27,8 +27,23 @@
     padding: 60px 90px;
 }
 
-.Left_Section {
+.Section_Bg {
     background: url(../Assets/images/Landing_Left_Bg.png);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 60vh;
+}
+.Left_Section {
+    background-color: transparent;
+}
+.Left_Text {
+    padding-top: 4%;
+    background-color: transparent;
+    width: 39%;
+    letter-spacing: 0.2rem;
+    line-height: 2rem;
+}
+
+.Higlight_Black {
+    background-color: #1F1E1F;
+    color: #E4F14E;
 }
