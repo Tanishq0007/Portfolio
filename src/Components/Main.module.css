@@ -39,7 +39,7 @@
     width: 40%;
 }
 .Left_Text {
-    padding-top: 10%;
+    padding-top: 7%;
     background-color: transparent;
     letter-spacing: 0.2rem;
     line-height: 2rem;
@@ -75,14 +75,17 @@
 
 .Hustle {
     display: flex;
+    background-color: transparent;
     flex-direction: column;
     font-size: 3.8rem;
-    padding-left: 5%;
+    padding-left: 15%;
     -webkit-text-stroke: 3px #1F1E1F;
-    color: #F3EFF5;
+    color: transparent;
     font-family: 'Mulish', sans-serif;
     letter-spacing: 1rem;
 }
+
+.Hustle span{ background-color: transparent;}
 
 .Right_Section {
     overflow: hidden;
@@ -90,7 +93,7 @@
     font-weight: bold;
     color: #6C6C6C;
     width: 50%;
-    letter-spacing: 5rem;
+    letter-spacing: 4.5rem;
     line-height: 5rem;
 }
 
