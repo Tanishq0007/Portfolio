@@ -15,8 +15,27 @@ const main = (props) => {
                 <div className={styles.Section_Bg}>
                     <div className={styles.Left_Section}>
                         <h3 className={styles.Left_Text}>Hi! I’am <span className={styles.Higlight_Black} >Tanishq Verma</span>, A Designer and a Developerwith a bunch of visions.</h3>
-                        <button> Copy Link </button>
+                        <div className={styles.BtnBg}>
+                            <button className={ styles.Btn }> COPY LINK </button>
+                        </div>
                     </div>
+                    <div className={styles.Hustle}>
+                        <span>H</span>
+                        <span>U</span>
+                        <span>S</span>
+                        <span>T</span>
+                        <span>L</span>
+                        <span>E</span>
+                    </div>
+                    <div className={styles.Right_Section}>
+                        DESIGN IS UNDERS- TANDING <span className={styles.Better}>BETTER</span>
+                    </div>
+                </div>
+            </div>
+            {/* Projects */}
+            <div className={styles.Projects}>
+                <div className={styles.Heading_Text}>
+                    <h1 className={styles.Heading} >PROJECTS</h1>
                 </div>
             </div>
         </div>

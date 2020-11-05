@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
 
 * {
     background-color: #F3EFF5;
@@ -31,19 +32,94 @@
     background: url(../Assets/images/Landing_Left_Bg.png);
     background-repeat: no-repeat;
     height: 60vh;
+    display: flex;
 }
 .Left_Section {
     background-color: transparent;
+    width: 40%;
 }
 .Left_Text {
-    padding-top: 4%;
+    padding-top: 10%;
     background-color: transparent;
-    width: 39%;
     letter-spacing: 0.2rem;
     line-height: 2rem;
+    font-family: 'Spartan', sans-serif;
 }
 
 .Higlight_Black {
     background-color: #1F1E1F;
     color: #E4F14E;
+}
+
+.Btn {
+    background-color: transparent;
+    border: 13px solid #E4F14E;
+    padding: 25px 50px;
+    color: #1F1E1F;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    font-family: 'Spartan', sans-serif;
+    cursor: pointer;
+} 
+
+.Btn:focus ,
+.Btn:active {
+    outline: none;
+}
+
+.BtnBg{
+    padding-top: 15%;
+    background-color: transparent;
+}
+
+.Hustle {
+    display: flex;
+    flex-direction: column;
+    font-size: 3.8rem;
+    padding-left: 5%;
+    -webkit-text-stroke: 3px #1F1E1F;
+    color: #F3EFF5;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 1rem;
+}
+
+.Right_Section {
+    overflow: hidden;
+    background-color: transparent;
+    font-weight: bold;
+    color: #6C6C6C;
+    width: 50%;
+    letter-spacing: 5rem;
+    line-height: 5rem;
+}
+
+.Better {
+    color: #1F1E1F;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.Projects {
+    padding-top: 70px;
+    padding-left: 90px;
+}
+
+.Heading_Text {
+    color: #1F1E1F;
+    letter-spacing: 0.4rem;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    background-color: transparent;
+}
+.Heading{ background-color: transparent; }
+.Heading_Text::before {
+    content: " ";
+    top: 20px;
+    position: absolute;
+    background-color: #E4F14E;
+    width: 70%;
+    height: 30%;
+    z-index: -1;
 }
