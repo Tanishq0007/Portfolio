@@ -2,6 +2,7 @@ import React from 'react';
 
 import styles from './Main.module.css';
 import HeaderImg from '../Assets/images/Header.png';
+import project1 from '../Assets/images/projects/IPATC.png';
 
 const main = (props) => {
     return( 
@@ -35,8 +36,15 @@ const main = (props) => {
             {/* Projects */}
             <div className={styles.Projects}>
                 <div className={styles.Heading_Text}>
-                    <h1 className={styles.Heading} >PROJECTS</h1>
+                    <h1 className={styles.Heading}>PROJECTS</h1>
                 </div>
+                <div className={styles.carousel_wrap}>
+                        <div className={styles.owl_carousel}>
+                            <div className={styles.itam}>
+                                <img src={project1}/>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     );
